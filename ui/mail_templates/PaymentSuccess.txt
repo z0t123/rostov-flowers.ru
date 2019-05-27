@@ -1,0 +1,41 @@
+﻿<html>
+<body>
+В {#PAYMENTDATETIME} был оплачен заказ № {#NUMBER}.<br/>
+Перейти к списку платежей можно по <a href="http://www.rostov-flowers.ru/PaymentList.aspx">ссылке</a><br/>
+<br/>
+---------------------------<br/>
+Платеж №{#NUMBER}
+<br/>
+<table>
+<tr>
+	<td>
+		Сумма:
+	</td>
+	<td>
+		{#COST}
+	</td>
+</tr>
+<tr>
+	<td>
+		Дата и время платежа:
+	</td>
+	<td>
+		{#PAYMENTDATETIME}
+	</td>
+</tr>
+<tr>
+	<td>
+		Описание платежа:
+	</td>
+	<td>
+		{#PAYMENTDESCRIPTION}
+	</td>
+</tr>
+</table>
+<br/>
+---------------------------<br/>
+<br/>
+Данное письмо создано системой учета платежей Соцветие.<br/>
+Отвечать на него не нужно!<br/>
+</body>
+</html>

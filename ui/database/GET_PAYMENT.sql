@@ -1,0 +1,7 @@
+﻿CREATE PROCEDURE GET_PAYMENT
+	@PaymentId int
+AS
+
+SELECT *
+FROM PaymentList
+WHERE Id = @PaymentId

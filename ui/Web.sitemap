@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+<siteMapNode url="Default.aspx" title="Главная"  description="Главная">
+<siteMapNode url="Bukets.aspx" title="Букеты"  description="Букеты" />
+  
+<siteMapNode url="Compositions.aspx" title="Композиции"  description="Цветы в композициях">
+    <siteMapNode url="CompositionsHearts.aspx" title="Сердце"  description="Сердце" />
+    <siteMapNode url="CompositionsFigures.aspx" title="Фигурки"  description="Фигурки" />
+    <siteMapNode url="CompositionsBaskets.aspx" title="Корзины"  description="Корзины" />
+    <siteMapNode url="CompositionsTrees.aspx" title="Деревья"  description="Деревья" />
+    <siteMapNode url="CompositionsMiscellaneous.aspx" title="Разное"  description="Разное" />
+</siteMapNode>
+
+<siteMapNode url="Roses.aspx" title="Роза"  description="Каталог сортов роз">
+    <siteMapNode url="RosesCatalog.aspx" title="Каталог сортов роз"  description="Каталог сортов роз">
+      <siteMapNode url="RosesAvalanche.aspx" title="роза Аваланж" description="роза Аваланж"/>
+      <siteMapNode url="RosesAmbiance.aspx" title="роза Амбианс" description="роза Амбианс"/>
+      <siteMapNode url="RosesBlackMagic.aspx" title="роза Черная магия" description="роза Черная магия"/>
+      <siteMapNode url="RosesVendella.aspx" title="роза Венделла" description="роза Венделла"/>
+      <siteMapNode url="RosesEngagement.aspx" title="роза Ангажемент" description="роза Ангажемент"/>
+      <siteMapNode url="RosesSweetness.aspx" title="роза Свитнес" description="роза Свитнес"/>
+      <siteMapNode url="RosesVersilia.aspx" title="роза Версилия" description="роза Версилия"/>
+      <siteMapNode url="RosesGrandPrix.aspx" title="роза Гранд При" description="роза Гранд При"/>
+      <siteMapNode url="RosesIguana.aspx" title="роза Игуана" description="роза Игуана"/>
+      <siteMapNode url="RosesLeonidas.aspx" title="роза Леонидас" description="роза Леонидас"/>
+      <siteMapNode url="RosesCircus.aspx" title="роза Циркус" description="роза Циркус"/>
+      <siteMapNode url="RosesHocusPocus.aspx" title="роза Фокус-Покус" description="роза Фокус-Покус"/>
+    </siteMapNode>
+</siteMapNode>
+
+<siteMapNode url="Wedding.aspx" title="Свадьба"  description="Свадьба">
+    <siteMapNode url="WeddingBukets.aspx" title="Букет невесты"  description="Букет невесты" />
+    <siteMapNode url="WeddingDesign.aspx" title="Оформление свадеб"  description="Оформление свадеб" />
+    <siteMapNode url="Zags.aspx" title="ЗАГСы в Ростове"  description="ЗАГСы Ростова-на-Дону" />
+    <siteMapNode url="LinksAvto.aspx" title="Прокат автомобилей"  description="Прокат автомобилей, лимузинов" />
+</siteMapNode>
+
+<siteMapNode url="Plants.aspx" title="Комнатные растения"  description="Комнатные растения">
+    <siteMapNode url="PlantsCatalog.aspx" title="Каталог"  description="каталог комнатных растений">
+      <siteMapNode url="PlantsAzalea.aspx" title="Азалия"  description="Азалия" />
+      <siteMapNode url="PlantsAnturium.aspx" title="Антуриум"  description="Антуриум" />
+      <siteMapNode url="PlantsBamboo.aspx" title="Бамбук"  description="Бамбук" />
+      <siteMapNode url="PlantsGuzmania.aspx" title="Гузмания"  description="Гузмания" />
+      <siteMapNode url="PlantsDracena.aspx" title="Драцена"  description="Драцена" />
+      <siteMapNode url="PlantsHortensis.aspx" title="Гортензия"  description="Гортензия" />
+      <siteMapNode url="PlantsZamiokulkas.aspx" title="Замиокулькас"  description="Замиокулькас" />
+      <siteMapNode url="PlantsKaktus.aspx" title="Кактусы"  description="Кактусы" />
+      <siteMapNode url="PlantsKalat.aspx" title="Калатея"  description="Калатея" />
+      <siteMapNode url="PlantsKrassula.aspx" title="Крассула"  description="Крассула" />
+      <siteMapNode url="PlantsKroton.aspx" title="Кротон"  description="Кротон" />
+      <siteMapNode url="PlantsMyrtus.aspx" title="Мирт"  description="Мирт" />
+      <siteMapNode url="PlantsMonstera.aspx" title="Монстера"  description="Монстера" />
+      <siteMapNode url="PlantsPahira.aspx" title="Пахира"  description="Пахира" />
+      <siteMapNode url="PlantsHedera.aspx" title="Плющ"  description="Плющ" />
+      <siteMapNode url="PlantsPrimula.aspx" title="Примула"  description="Примула" />
+      <siteMapNode url="PlantsPoinsettia.aspx" title="Пуансеттия"  description="Пуансеттия" />
+      <siteMapNode url="PlantsRaptor.aspx" title="Растения хищники. Непентес"  description="Непентес" />
+      <siteMapNode url="PlantsSpathiphyllum.aspx" title="Спатифиллум"  description="Спатифиллум" />
+      <siteMapNode url="PlantsSaintpaulia.aspx" title="Сенполия"  description="Сенполия" />
+      <siteMapNode url="PlantsPhalaenopsis.aspx" title="Фаленопсис"  description="Фаленопсис" />
+      <siteMapNode url="PlantsEhmea.aspx" title="Эхмея"  description="Эхмея" />
+    </siteMapNode>
+    
+    <siteMapNode url="PlantsPot.aspx" title="Горшки"  description="Горшки" />
+    <siteMapNode url="PlantsAdd.aspx" title="Грунт"  description="Грунт" />
+</siteMapNode>
+
+<siteMapNode url="Design.aspx" title="Оформление цветами"  description="Оформление цветами" />
+  
+<siteMapNode url="Services.aspx" title="Доп. услуги"  description="Дополнительные услуги">
+    <siteMapNode url="Delivery.aspx" title="Доставка по городу"  description="Доставка по городу" />
+    <siteMapNode url="DeliveryRussia.aspx" title="Доставка по России"  description="Доставка цветов по России" />
+    <siteMapNode url="DeliveryWorld.aspx" title="Доставка в мире"  description="Международная доставка цветов" />
+    <siteMapNode url="Links.aspx" title="Ссылки"  description="Ссылки">
+      <siteMapNode url="LinksDelivery.aspx" title="Доставка цветов. Партнёры"  description="Доставка цветов. Партнёры" />
+      <siteMapNode url="LinksWedding.aspx" title="Свадебные сайты"  description="Свадебные сайты" />
+      <siteMapNode url="LinksFlowers.aspx" title="Сайты о цветах"  description="Сайты о цветах" />
+      <siteMapNode url="LinksPartners.aspx" title="Наши партнёры"  description="Наши партнёры" />
+      <siteMapNode url="LinksFoto.aspx" title="Cвадебный фотограф"  description="Cвадебный фотограф" />
+    </siteMapNode>
+</siteMapNode>
+
+<siteMapNode url="Articles.aspx" title="Статьи"  description="Статьи" />
+    
+<siteMapNode url="Vacant.aspx" title="Вакансии"  description="Вакансии" />
+
+<siteMapNode url="PayMethods.aspx" title="Способы оплаты"  description="Способы оплаты" />
+
+<siteMapNode url="Contacts.aspx" title="Контакты"  description="Контакты" />
+
+<siteMapNode url="Edit.aspx" title="Администрирование"  description="Администрирование" roles="WebAdministrators">
+  <siteMapNode url="EditArticles.aspx" title="Статьи"  description="Редактирование страницы статей" />  
+  <siteMapNode url="EditBukets.aspx" title="Букеты"  description="Редактирование страницы букетов" />  
+  <siteMapNode url="EditDesign.aspx" title="Оформление интерьера"  description="Редактирование страницы оформления интерьера" />
+  <siteMapNode url="EditCompositionsHearts.aspx" title="Композиции Сердца"  description="Редактирование страницы композиций в виде сердец" />
+  <siteMapNode url="EditCompositionsFigures.aspx" title="Композиции Фигурки"  description="Редактирование страницы композиций в виде фигурок" />
+  <siteMapNode url="EditCompositionsBaskets.aspx" title="Композиции Корзины"  description="Редактирование страницы композиций в корзинах" />
+  <siteMapNode url="EditCompositionsTrees.aspx" title="Композиции Деревья"  description="Редактирование страницы композиций деревья" />
+  <siteMapNode url="EditCompositionsMiscellaneous.aspx" title="Композиции Разное"  description="Редактирование страницы композиций разное" />
+  <siteMapNode url="EditWeddingBukets.aspx" title="Свадьба букеты"  description="Редактирование страницы свадебных букетов" />
+  <siteMapNode url="EditWeddingDesign.aspx" title="Свадьба оформление"  description="Редактирование страницы свадебного оформления" />
+  <siteMapNode url="PaymentList.aspx" title="Список платежей"  description="Список платежей" />
+</siteMapNode>  
+
+</siteMapNode>
+</siteMap>

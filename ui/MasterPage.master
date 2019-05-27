@@ -1,0 +1,225 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <link rel="SHORTCUT ICON" href="Images/Socvetie.ico" type="image/x-icon" />
+    <link rel="ICON" href="Images/Socvetie.ico" type="image/ico" />
+    <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/jQueryPhotoSlider.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/imageScroller.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="Scripts/jquery-1.3.1.min.js"></script>
+    <script type="text/javascript" src="Scripts/jQueryPhotoSlider.js"></script>
+    <script type="text/javascript" src="Scripts/imageScroller.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.lightbox-0.5.js"></script>
+    <asp:contentplaceholder id="ContentPlaceHolderScript" runat="server">
+    </asp:contentplaceholder>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta name="keywords" content="доставка, цветы, ростов, соцветие, свадьба, букет, комнатное растение, заказ, заказать, круглосуточно, невеста, роза" />
+    <meta name="description" content="Доставка цветов Ростов-на-Дону. Соцветие." />
+    <meta name="abstract" content="Доставка цветов Ростов-на-Дону. Соцветие."/>
+    <meta name="DevelopedBy" content="Sloopsky Mathew, mathewsun@mail.ru"/>
+    <meta name="google-site-verification" content="7IfF-wqHqmsNOlFORd9qvNW1KNPT1ulu5Jtn-eX707E" />
+    <meta name="google-site-verification" content="fCymnQHROdcOWvpcwxmGLMohxR-t2Iz1UMp43_nbVhQ" />
+    <meta name="yandex-verification" content='5000f9702cc5b7c7' />
+    <meta name='yandex-verification' content='49a6dee11120e202' />
+    <meta name="msvalidate.01" content="7E02830E73B117B92C1C54628810240B" />
+    <meta name="Robots" content="INDEX, FOLLOW"/>
+	<meta name="ab823ed8bd24b1bfedb41c384cae1e51" content="">
+    <title>Доставка цветов Ростов-на-Дону. Соцветие.</title>
+</head>
+<body class="bodystyle">
+    <form id="form1" runat="server" style="margin-left:0; margin-top:0; margin-right:0; margin-bottom:0; width:100%; height:100%">
+    <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr><td colspan="3" height="103px" align="center" valign="middle" nowrap="nowrap">
+            <a href="/" title="Доставка цветов">
+                <img src="Images/TopImage.jpg" alt="Доставка цветов" title="Доставка цветов" height="103px" border="0" />
+            </a>
+        </td></tr>
+        <tr style="height:100%">
+        <td align="left" style="width:150px" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                <td align="left" valign="top">
+                    <table border="0" height="600px" cellpadding="0" cellspacing="0" class="leftmenubcgrd">
+
+                    <tr><td valign="top" style="white-space:nowrap;">
+                        <asp:Menu ID="Menu1" style="margin-left:10px;" runat="server" 
+                            DataSourceID="SiteMapDataSource1" Font-Names="Calibri"  Font-Size="11pt" 
+                            Font-Bold="True" EnableTheming="False" MaximumDynamicDisplayLevels="0" 
+                            Font-Overline="False" StaticDisplayLevels="2">
+                            <StaticSelectedStyle Font-Names="Calibri" Font-Size="11pt" ForeColor="Green" />
+                            <DynamicHoverStyle Font-Names="Calibri" Font-Overline="False" Font-Size="11pt" ForeColor="LimeGreen"/>
+                            <DynamicMenuStyle BorderStyle="Solid"
+                                BorderWidth="1px" CssClass="DynamicMenuItemStyle" />
+                            <DynamicSelectedStyle Font-Names="Calibri" Font-Size="11pt" ForeColor="Green"/>
+                            <DynamicMenuItemStyle Font-Names="Calibri" Font-Size="11pt" ForeColor="DarkGreen"/>
+                            <StaticHoverStyle Font-Names="Calibri" Font-Size="11pt" ForeColor="#CCFFCC"/>
+                            <StaticMenuItemStyle Font-Names="Calibri" Font-Size="11pt" ForeColor="#006600" />
+                        </asp:Menu>
+                        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                    </td><td></td></tr>
+                    <tr><td>
+                        <asp:LoginStatus ID="LoginStatus1" style="margin-left:15px;" runat="server" LoginText="Войти" LogoutText="Выйти" Font-Underline="False" Font-Bold="True" Font-Names="Calibri" Font-Size="10pt" ForeColor="DarkGreen"/>
+                    </td><td></td></tr>
+                    </table>
+                </td>
+                </tr>
+                <tr><td align="center" valign="top" style="padding-top:30px;">
+                    <table cellpadding="2" cellspacing="2" border="0" class="textPayMethodsTable">
+	                    <tr><td>
+						<a href="PayMethods.aspx" title="Способы оплаты">
+						Способы оплаты:
+						</a>
+						</td></tr>
+                        <tr><td>
+                            <a href="PayMethods.aspx"><img src="Images/AWMblue.gif" alt="WebMoney" width="88" height="31" border="0" /></a>
+                        </td></tr>
+                        <tr><td>
+                            <a href="PayMethods.aspx"><img src="Images/LYMmini.gif" alt="YandexMoney" width="88" height="31" border="1" style="border-color:Blue;" /></a>
+                        </td></tr>
+                    </table>
+                </td></tr>
+
+                <tr><td align="center" valign="top" style="padding-top:100px;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+	                    <tr><th>
+                            <span style="color: Green; font-size: small; font-weight: bold; text-decoration: none;">Дополнительно:</span>
+                        </th></tr>
+                        <tr><td align="center" style="padding-top:3px;">
+                            <span style="color: Green; font-size: 8px; font-weight: bold; text-decoration: none;"><a href="http://www.good-extreme.ru/content/%D0%BF%D1%80%D1%8B%D0%B6%D0%BA%D0%B8-%D1%81-%D0%BF%D0%B0%D1%80%D0%B0%D1%88%D1%8E%D1%82%D0%BE%D0%BC-%D0%B2-%D1%80%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D0%B5-%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BD%D1%83" title="Прыжки с парашютом" target="_blank"><img src="Images/banner_skydive_88x31.gif" width="88" height="31" border="1" style="color: Green; font-size: 8px; font-weight: bold; text-decoration: none;" alt="Прыжки с парашютом" title="Прыжки с парашютом" /></a></span>
+                        </td></tr>
+                    </table>
+                </td></tr>
+
+                <tr><td align="center" valign="top" style="padding-top:20px;">
+                </td></tr>
+
+                <tr><td align="center" valign="top" style="padding-top:20px;">
+					<!-- Yandex.Metrika counter -->
+					<div style="display:none;"><script type="text/javascript">
+					(function(w, c) {
+						(w[c] = w[c] || []).push(function() {
+							try {
+								w.yaCounter11360968 = new Ya.Metrika({id:11360968, enableAll: true});
+							}
+							catch(e) { }
+						});
+					})(window, "yandex_metrika_callbacks");
+					</script></div>
+					<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+					<noscript><div><img src="//mc.yandex.ru/watch/11360968" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+					<!-- /Yandex.Metrika counter -->
+                </td></tr>
+            </table>
+        </td>
+        <td class="main" align="left" valign="top">
+        <table width="100%" height="100%">
+        <tr><td valign="top" align="center" class="textsite">
+
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+
+        </td></tr>
+        </table>
+        </td>
+        <td valign="top" align="right">
+            <div id="right">
+				<a href="CompositionsBaskets.aspx" title="Корзина цветов">
+					<img src="Images/vertical_basket_1.jpg" alt="Корзина цветов" width="150" title="Корзина цветов" />
+				</a>
+				<a href="Bukets.aspx" title="Купить букет">
+					<img src="Images/vertical_buket_1.jpg" alt="Купить букет" width="150" title="Купить букет" />
+				</a>
+				<a href="WeddingBukets.aspx" title="Свадебный букет">
+					<img src="Images/vertical_wedding_1.jpg" alt="Свадебный букет" width="150" title="Свадебный букет" />
+				</a>
+				<a href="PlantsCatalog.aspx" title="Комнатные растения каталог">
+					<img src="Images/ImageData/Plants/anturium_2.jpg" alt="Комнатные растения каталог" width="150" title="Комнатные растения каталог" />
+				</a>
+				<a href="CompositionsBaskets.aspx" title="Корзина цветов">
+					<img src="Images/vertical_basket_2.jpg" alt="Корзина цветов" width="150" title="Корзина цветов" />
+				</a>
+				<a href="Bukets.aspx" title="Купить букет">
+					<img src="Images/vertical_buket_2.jpg" alt="Купить букет" width="150" title="Купить букет" />
+				</a>
+				<a href="WeddingBukets.aspx" title="Свадебный букет">
+					<img src="Images/vertical_wedding_2.jpg" alt="Свадебный букет" width="150" title="Свадебный букет" />
+				</a>
+				<a href="PlantsCatalog.aspx" title="Комнатные растения каталог">
+					<img src="Images/ImageData/Plants/azalea_1.jpg" alt="Комнатные растения каталог" width="150" title="Комнатные растения каталог" />
+				</a>
+				<a href="CompositionsBaskets.aspx" title="Корзина цветов">
+					<img src="Images/vertical_basket_3.jpg" alt="Корзина цветов" width="150" title="Корзина цветов" />
+				</a>
+				<a href="Bukets.aspx" title="Купить букет">
+					<img src="Images/vertical_buket_3.jpg" alt="Купить букет" width="150" title="Купить букет" />
+				</a>
+				<a href="WeddingBukets.aspx" title="Свадебный букет">
+					<img src="Images/vertical_wedding_3.jpg" alt="Свадебный букет" width="150" title="Свадебный букет" />
+				</a>
+				<a href="PlantsCatalog.aspx" title="Комнатные растения каталог">
+					<img src="Images/ImageData/Plants/hortensis_1.jpg" alt="Комнатные растения каталог" width="150" title="Комнатные растения каталог" />
+				</a>
+				<a href="CompositionsBaskets.aspx" title="Корзина цветов">
+					<img src="Images/vertical_basket_4.jpg" alt="Корзина цветов" width="150" title="Корзина цветов" />
+				</a>
+				<a href="Bukets.aspx" title="Купить букет">
+					<img src="Images/vertical_buket_4.jpg" alt="Купить букет" width="150" title="Купить букет" />
+				</a>
+				<a href="WeddingBukets.aspx" title="Свадебный букет">
+					<img src="Images/vertical_wedding_4.jpg" alt="Свадебный букет" width="150" title="Свадебный букет" />
+				</a>
+				<a href="PlantsCatalog.aspx" title="Комнатные растения каталог">
+					<img src="Images/ImageData/Plants/kaktus_1.jpg" alt="Комнатные растения каталог" width="150" title="Комнатные растения каталог" />
+				</a>
+				<a href="CompositionsBaskets.aspx" title="Корзина цветов">
+					<img src="Images/vertical_basket_5.jpg" alt="Корзина цветов" width="150" title="Корзина цветов" />
+				</a>
+				<a href="WeddingBukets.aspx" title="Свадебный букет">
+					<img src="Images/vertical_wedding_5.jpg" alt="Свадебный букет" width="150" title="Свадебный букет" />
+				</a>
+				<a href="PlantsCatalog.aspx" title="Комнатные растения каталог">
+					<img src="Images/ImageData/Plants/Monstera_1.jpg" alt="Комнатные растения каталог" width="150" title="Комнатные растения каталог" />
+				</a>
+				<a href="WeddingBukets.aspx" title="Свадебный букет">
+					<img src="Images/vertical_wedding_6.jpg" alt="Свадебный букет" width="150" title="Свадебный букет" />
+				</a>
+				<a href="PlantsCatalog.aspx" title="Комнатные растения каталог">
+					<img src="Images/ImageData/Plants/poinsettia_2.jpg" alt="Комнатные растения каталог" width="150" title="Комнатные растения каталог" />
+				</a>
+				<a href="PlantsCatalog.aspx" title="Комнатные растения каталог">
+					<img src="Images/ImageData/Plants/falenopsis_1.jpg" alt="Комнатные растения каталог" width="150" title="Комнатные растения каталог" />
+				</a>
+			</div>
+        </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <asp:contentplaceholder id="ContentPlaceHolderBottomText" runat="server">
+                </asp:contentplaceholder>
+            </td>
+        </tr>
+        <tr><td colspan="3" align="center" valign="top" style="height:170px;">
+            <a href="/" title="Доставка цветов Ростов-на-Дону">
+                <img src="Images/Socvetie_bottom.gif" alt="Доставка цветов Ростов-на-Дону" title="Доставка цветов Ростов-на-Дону" border="0" />
+            </a>
+        </td></tr>
+		<tr><td colspan="3" align="center" valign="top">
+            <div id="bottomLinks"><a href="/" title="доставка цветов ростов-на-дону">
+                доставка цветов ростов-на-дону
+            </a>, 
+			<a href="/" title="доставка цветов">
+                доставка цветов
+            </a>,
+			<a href="/WeddingBukets.aspx" title="свадебные букеты">
+                свадебные букеты
+            </a>
+			</div>
+        </td></tr>
+    </table>
+    </form>
+</body>
+</html>
