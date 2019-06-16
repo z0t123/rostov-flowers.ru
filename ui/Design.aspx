@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Design.aspx.cs" Inherits="Design" Title="Оформление цветами" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Design.aspx.cs" Inherits="Design" Title="Оформление и украшение цветами в Ростове-на-Дону" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
 <script type="text/javascript">
     $(function () {
@@ -7,7 +7,7 @@
 </script>
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<h1 style="color:Green; font-size:110%; margin-bottom:5px;">Оформление цветами в Ростове-на-Дону:</h1>
+<h1 style="color:Green; font-size:110%; margin-bottom:5px;">Оформление и украшение цветами в Ростове-на-Дону:</h1>
 <table width="700px" border="0" cellpadding="5" cellspacing="0">
 <tr><td style="padding-left:10px;">
     <asp:GridView Width="100%" PagerStyle-VerticalAlign="Bottom" FooterStyle-Height="100%" RowStyle-VerticalAlign="Top" Height="100%" ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False"

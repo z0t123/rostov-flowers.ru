@@ -43,7 +43,7 @@ public class Settings
     {
         get
         {
-            return 60;
+            return Convert.ToInt32(DataHelper.GetSettings("SqlCommandTimeout"));
         }
     }
 

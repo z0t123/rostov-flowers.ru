@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="WeddingBukets.aspx.cs" Inherits="WeddingBukets" Title="Свадебный букет невесты. Доставка цветов Ростов-на-Дону. Соцветие." %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="WeddingBukets.aspx.cs" Inherits="WeddingBukets" Title="Заказать свадебный букет для невесты с доставкой в Ростове-на-Дону" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
 <script type="text/javascript">
     $(function () {

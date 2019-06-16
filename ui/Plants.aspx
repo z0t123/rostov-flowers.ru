@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Plants.aspx.cs" Inherits="Plants" Title="Комнатные растения." %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Plants.aspx.cs" Inherits="Plants" Title="Купить комнатные растения в Ростове-на-Дону" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <h1 style="color:Green; font-size:110%; margin-bottom:5px;">Комнатные растения:</h1>
 <table cellpadding="5" cellspacing="5" border="0">

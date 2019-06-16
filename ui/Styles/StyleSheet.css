@@ -1,33 +1,32 @@
-﻿a{
-	text-decoration:none;
+﻿a {
+    text-decoration: none;
 }
-h1
-{
+
+h1 {
     margin: 0;
     font-size: 130%;
     padding-bottom: 5px;
-	color: green;
+    color: green;
 }
-h2
-{
+
+h2 {
     margin: 0;
     font-size: 130%;
-	padding-bottom: 10px;
+    padding-bottom: 10px;
     padding-left: 15px;
-	padding-top: 5px;
-	color: green;
+    padding-top: 5px;
+    color: green;
 }
-h3
-{
+
+h3 {
     margin: 0;
     font-size: 100%;
     padding-left: 5px;
     padding-bottom: 5px;
-	color: green;
+    color: green;
 }
 
-.bodystyle
-{
+.bodystyle {
     background-color: #ffffff;
     margin-left: 0px;
     margin-right: 0px;
@@ -35,8 +34,8 @@ h3
     margin-bottom: 0px;
     vertical-align: top;
 }
-.main
-{
+
+.main {
     background-color: #ffffff;
     margin-left: 0px;
     margin-right: 0px;
@@ -44,24 +43,16 @@ h3
     margin-bottom: 0px;
     vertical-align: top;
 }
-.menu
-{
+
+.menu {
     background-color: #F6B9F6;
 }
-.menu a
-{
-    margin-right: 2px;
-}
-.menuItem
-{
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #c2c272;
-    vertical-align: middle;
-    text-align: left;
-}
-.menuItemSelected
-{
+
+    .menu a {
+        margin-right: 2px;
+    }
+
+.menuItem {
     padding-left: 15px;
     padding-right: 15px;
     background-color: #c2c272;
@@ -69,14 +60,20 @@ h3
     text-align: left;
 }
 
-.DinamicMenuItem
-{
+.menuItemSelected {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #c2c272;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.DinamicMenuItem {
     padding-left: 5px;
     padding-right: 5px;
 }
 
-.button
-{
+.button {
     background-color: #E6E6E7;
     width: 80px;
     background-image: url(../Images/button_bg.gif);
@@ -84,34 +81,34 @@ h3
     background-position: left top;
     border: 1px solid #999999;
 }
-.textsite
-{
+
+.textsite {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: Black;
 }
-.greentextsite
-{
+
+.greentextsite {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: Green;
     text-decoration: none;
 }
-.greentextsite a
-{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: Green;
-    text-decoration: none;
-}
-.textsitesmall
-{
+
+    .greentextsite a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: Green;
+        text-decoration: none;
+    }
+
+.textsitesmall {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #777777;
 }
-.ImageDesign
-{
+
+.ImageDesign {
     float: left;
     margin-right: 10px;
     margin-bottom: 5px;
@@ -119,81 +116,81 @@ h3
     width: 150px;
     height: 150px;
 }
-.ImageBukets
-{
+
+.ImageBukets {
     border: 0px;
     border-color: Green;
     width: 150px;
     height: 150px;
 }
-.ImagesItemsClass
-{
+
+.ImagesItemsClass {
     border: 0px;
     border-color: Green;
     width: 150px;
     height: 150px;
 }
-.pageName
-{
+
+.pageName {
     font: 20px georgia;
     color: #CC3300;
 }
-.topText
-{
+
+.topText {
     font-family: Monotype Corsiva;
     font-size: 36px;
     color: #2E8B57;
     font-weight: bold;
     font-style: italic;
 }
-.leftmenubcgrd
-{
+
+.leftmenubcgrd {
     padding-top: 10px;
-    padding-left: 2px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 40px;
     padding-bottom: 10px;
     background-image: url(../Images/MenuBcgr.gif);
     background-repeat: no-repeat;
     background-position: bottom right;
     vertical-align: top;
 }
-.downbcgrd
-{
+
+.downbcgrd {
     background-image: url(../Images/Соцветие.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
 }
-.ImagePlants
-{
+
+.ImagePlants {
     margin-right: 0px;
     margin-bottom: 0px;
 }
-.GreenTextPlants
-{
+
+.GreenTextPlants {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
     color: Green;
     font-weight: bold;
 }
-DynamicMenuItemStyle
-{
+
+DynamicMenuItemStyle {
     padding-left: 2px;
     padding-right: 2px;
 }
-.GreenTextRosesCatalog
-{
+
+.GreenTextRosesCatalog {
     font-size: small;
     color: Green;
     font-weight: bold;
 }
-.GreenTextRoses
-{
+
+.GreenTextRoses {
     font-size: medium;
     color: Green;
     font-weight: bold;
 }
-.leftReclameTable
-{
+
+.leftReclameTable {
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -203,8 +200,8 @@ DynamicMenuItemStyle
     background-position: bottom right;
     vertical-align: top;
 }
-.ReclameLink
-{
+
+.ReclameLink {
     text-decoration: none;
     color: Green;
     font-family: Myriad Pro;
@@ -213,8 +210,7 @@ DynamicMenuItemStyle
 }
 
 /* стили нижних элементов с текстом */
-.bottomElements
-{
+.bottomElements {
     overflow: hidden;
     width: 100%;
     padding-left: 0px;
@@ -225,8 +221,7 @@ DynamicMenuItemStyle
     border: 0px;
 }
 
-.bottomInnerElements
-{
+.bottomInnerElements {
     overflow: hidden;
     width: 100%;
     font: 10pt Tahoma, Sans-Serif;
@@ -237,68 +232,58 @@ DynamicMenuItemStyle
     padding-bottom: 0px;
     background: #EFE;
     border: 1px solid #DDDDDD;
-	position: relative;
+    position: relative;
 }
 
-#leftleftBottomElement
-{
+#leftleftBottomElement {
     float: left;
     width: 33%;
 }
 
-#centerBottomElement
-{
+#centerBottomElement {
     float: left;
     width: 34%;
 }
 
-#rightBottomElement
-{
+#rightBottomElement {
     float: left;
     width: 33%;
 }
 
-#leftleftBottomElement, #centerBottomElement, #rightBottomElement
-{
+#leftleftBottomElement, #centerBottomElement, #rightBottomElement {
     border: 0px;
 }
 
-.little_logo_img
-{
+.little_logo_img {
     float: left;
     margin-right: 10px;
 }
 
-.little_logo_img_articles
-{
+.little_logo_img_articles {
     float: left;
     margin-right: 10px;
-	margin-left: 5px;
+    margin-left: 5px;
 }
 
-.bottomInnerElement
-{
+.bottomInnerElement {
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #DDDDDD;
     margin: 10px 5px 10px 5px;
     padding: 15px 15px 15px 15px;
 }
 
-.bottomInnerElement p
-{
-    padding: 0px 0px 0px 0px;
-    margin: 0 0 0 0;
-    text-indent: 20px;
-}
+    .bottomInnerElement p {
+        padding: 0px 0px 0px 0px;
+        margin: 0 0 0 0;
+        text-indent: 20px;
+    }
 
-.bottomInnerElement a
-{
-    color: Green;
-    text-decoration: none;
-}
+    .bottomInnerElement a {
+        color: Green;
+        text-decoration: none;
+    }
 
-#centerMainContent
-{
+#centerMainContent {
     font: 10pt Tahoma, Sans-Serif;
     color: Green;
     padding-left: 0px;
@@ -308,21 +293,18 @@ DynamicMenuItemStyle
     margin: 0 0 0 0;
 }
 
-#centerMainContent p
-{
-    padding: 0px 0px 0px 0px;
-    margin: 5px 0 0 0;
-    text-indent: 20px;
-}
+    #centerMainContent p {
+        padding: 0px 0px 0px 0px;
+        margin: 5px 0 0 0;
+        text-indent: 20px;
+    }
 
-#centerMainContent a
-{
-    color: Green;
-    text-decoration: none;
-}
+    #centerMainContent a {
+        color: Green;
+        text-decoration: none;
+    }
 
-#centralDefaulImage
-{
+#centralDefaulImage {
     float: left;
     margin-right: 10px;
     width: 250px;
@@ -331,53 +313,51 @@ DynamicMenuItemStyle
 }
 
 .bodyStyleMain {
-  padding:0; margin:0 auto;
-  font: 10pt Tahoma, Sans-Serif;
+    padding: 0;
+    margin: 0 auto;
+    font: 10pt Tahoma, Sans-Serif;
 }
 
-#previewImg{
-	position:absolute;
-	border:1px solid #ccc;
-	background:#333;
-	padding:5px;
-	display:none;
-	color:#fff;
-	}
-	
-.textBlock
-{
+#previewImg {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: #333;
+    padding: 5px;
+    display: none;
+    color: #fff;
+}
+
+.textBlock {
     padding: 0px 0px 0px 0px;
     margin: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #DDDDDD;
     background: #EFE;
 }
-.textBlock p
-{
-    padding: 0px 0px 0px 0px;
-    margin: 5px 5px 5px 5px;
-    text-indent: 20px;
-	font: 10pt Tahoma, Sans-Serif;
-    color: Green;
-}
-.textBlock a
-{
-    color: Green;
-    text-decoration: none;
-}
 
-.itemsTable
-{
+    .textBlock p {
+        padding: 0px 0px 0px 0px;
+        margin: 5px 5px 5px 5px;
+        text-indent: 20px;
+        font: 10pt Tahoma, Sans-Serif;
+        color: Green;
+    }
+
+    .textBlock a {
+        color: Green;
+        text-decoration: none;
+    }
+
+.itemsTable {
     border-collapse: collapse;
     border: 0;
 }
-.itemsTable td
-{
-    padding: 0px
-}
 
-.articleNextText
-{
+    .itemsTable td {
+        padding: 0px;
+    }
+
+.articleNextText {
     border-bottom: 1px solid #B9DB9A;
     color: #006600;
     display: block;
@@ -387,33 +367,38 @@ DynamicMenuItemStyle
     text-decoration: none;
 }
 
-.hrDiv
-{
+.hrDiv {
     width: 80%;
 }
 
-.textPayMethodsTable a
-{
-	color: Green;
+.textPayMethodsTable a {
+    color: Green;
     text-decoration: none;
-	font-size: 12px;
-	font-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
 }
-.imgPayMethods
-{
-	width: 100px;
-	border: 1px solid #0072b7;
+
+.imgPayMethods {
+    width: 100px;
+    border: 1px solid #0072b7;
 }
-#bottomLinks
-{
-	color: Green;
-	background: #EEFFEE;
-	border: 1px solid #DDDDDD;
+
+#bottomLinks {
+    color: Green;
+    background: #EEFFEE;
+    border: 1px solid #DDDDDD;
 }
-#bottomLinks a
-{
-	color: Green;
-	text-decoration: none;
-	font-size: 14px;
-	font-weight: bold;
+
+    #bottomLinks a {
+        color: Green;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+.linksList a {
+    color: Green;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
 }

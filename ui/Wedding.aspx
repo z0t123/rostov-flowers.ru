@@ -1,9 +1,9 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Wedding.aspx.cs" Inherits="Wedding" Title="Свадьба в Ростове-на-Дону, свадебная флористика" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Wedding.aspx.cs" Inherits="Wedding" Title="Свадебная флористика в Ростове-на-Дону" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 <h1 style="color:Green; font-size:110%; margin-bottom:5px;">Свадьба в Ростове-на-Дону, свадебная флористика</h1>
 <table cellpadding="5" cellspacing="15" border="0">
     <tr><td colspan="4"  class="pageName" style="white-space:nowrap;">
-        Оформление свадеб и свадебная флористика:</td></tr>
+        Свадебная флористика в Ростове-на-Дону:</td></tr>
     <tr><td align="left" class="textsite">
         <span style="font-size: 14pt; color: darkgreen;">1.</span></td><td align="center" valign="middle"><a href="WeddingBukets.aspx" title="свадебные букеты"><img alt="Свадебные букеты" src="Images/WeddingBukets.jpg" title="свадебные букеты" width="200" height="200" border="0" /></a></td><td class="textsite" style="width: 500px">
         <span style="font-size: 14pt; color: darkgreen;"><a href="WeddingBukets.aspx" title="свадебные букеты" style="font-size: 14pt; color:Green; font-weight:bold; text-decoration:none;">Свадебные букеты</a></span></td></tr>

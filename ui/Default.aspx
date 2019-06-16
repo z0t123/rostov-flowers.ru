@@ -238,7 +238,7 @@
 								<table cellpadding="10">
 								<tr>
 								<td><span style="font-size: 14pt">в Ростове-на-Дону</span></td>
-								<td><strong>8-863-296-99-61</strong></td>
+								<td><strong>8-863-256-02-46</strong></td>
 								</tr>
 								</table>
 								</span>
