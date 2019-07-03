@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="WeddingDesign.aspx.cs" Inherits="WeddingDesign" Title="Оформление свадеб, украшение стола цветами" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="WeddingDesign.aspx.cs" Inherits="WeddingDesign" Title="Оформление свадеб цветами! Свадебная арка в Ростове-на-Дону" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderScript" Runat="Server">
 <script type="text/javascript">
     $(function () {
@@ -6,7 +6,7 @@
     });
 </script></asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<h1 style="color:Green; font-size:110%; margin-bottom:5px;">Оформление свадеб:</h1>
+<h1 style="color:Green; font-size:110%; margin-bottom:5px;">Оформление свадеб цветами, свадебные арки в Ростове-на-Дону:</h1>
     <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource1" EnableViewState="False" RepeatColumns="5" RepeatDirection="Horizontal" ShowHeader="False">
     <ItemTemplate>
         <table cellspacing="0" cellpadding="0" border="2" style="border-color:#FFE1FF;">

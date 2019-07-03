@@ -89,18 +89,20 @@
 
 <siteMapNode url="Contacts.aspx" title="Контакты"  description="Контакты" />
 
-<siteMapNode url="Edit.aspx" title="Администрирование"  description="Администрирование" roles="WebAdministrators">
-  <siteMapNode url="EditArticles.aspx" title="Статьи"  description="Редактирование страницы статей" />  
-  <siteMapNode url="EditBukets.aspx" title="Букеты"  description="Редактирование страницы букетов" />  
-  <siteMapNode url="EditDesign.aspx" title="Оформление интерьера"  description="Редактирование страницы оформления интерьера" />
-  <siteMapNode url="EditCompositionsHearts.aspx" title="Композиции Сердца"  description="Редактирование страницы композиций в виде сердец" />
-  <siteMapNode url="EditCompositionsFigures.aspx" title="Композиции Фигурки"  description="Редактирование страницы композиций в виде фигурок" />
-  <siteMapNode url="EditCompositionsBaskets.aspx" title="Композиции Корзины"  description="Редактирование страницы композиций в корзинах" />
-  <siteMapNode url="EditCompositionsTrees.aspx" title="Композиции Деревья"  description="Редактирование страницы композиций деревья" />
-  <siteMapNode url="EditCompositionsMiscellaneous.aspx" title="Композиции Разное"  description="Редактирование страницы композиций разное" />
-  <siteMapNode url="EditWeddingBukets.aspx" title="Свадьба букеты"  description="Редактирование страницы свадебных букетов" />
-  <siteMapNode url="EditWeddingDesign.aspx" title="Свадьба оформление"  description="Редактирование страницы свадебного оформления" />
+<siteMapNode url="Admin.aspx" title="Администрирование"  description="Администрирование" roles="WebAdministrators">
   <siteMapNode url="PaymentList.aspx" title="Список платежей"  description="Список платежей" />
+  <siteMapNode url="Edit.aspx" title="Редактирование"  description="Редактирование" roles="WebAdministrators">
+	  <siteMapNode url="EditArticles.aspx" title="Статьи"  description="Редактирование страницы статей" />  
+	  <siteMapNode url="EditBukets.aspx" title="Букеты"  description="Редактирование страницы букетов" />  
+	  <siteMapNode url="EditDesign.aspx" title="Оформление интерьера"  description="Редактирование страницы оформления интерьера" />
+	  <siteMapNode url="EditCompositionsHearts.aspx" title="Композиции Сердца"  description="Редактирование страницы композиций в виде сердец" />
+	  <siteMapNode url="EditCompositionsFigures.aspx" title="Композиции Фигурки"  description="Редактирование страницы композиций в виде фигурок" />
+	  <siteMapNode url="EditCompositionsBaskets.aspx" title="Композиции Корзины"  description="Редактирование страницы композиций в корзинах" />
+	  <siteMapNode url="EditCompositionsTrees.aspx" title="Композиции Деревья"  description="Редактирование страницы композиций деревья" />
+	  <siteMapNode url="EditCompositionsMiscellaneous.aspx" title="Композиции Разное"  description="Редактирование страницы композиций разное" />
+	  <siteMapNode url="EditWeddingBukets.aspx" title="Свадьба букеты"  description="Редактирование страницы свадебных букетов" />
+	  <siteMapNode url="EditWeddingDesign.aspx" title="Свадьба оформление"  description="Редактирование страницы свадебного оформления" />
+  </siteMapNode> 
 </siteMapNode>  
 
 </siteMapNode>

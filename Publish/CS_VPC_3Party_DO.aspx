@@ -251,7 +251,7 @@ private void Page_Load(object sender, System.EventArgs e)
     // This secret will vary from merchant to merchant
     // To not create a secure hash, let SECURE_SECRET be an empty string - ""
     // SECURE_SECRET can be found in Merchant Administration/Setup page
-    string SECURE_SECRET = "";
+    string SECURE_SECRET = "8E905F4CBECEC02D761C9215CF82A814";
 
     Panel_Debug.Visible = false;
     Panel_StackTrace.Visible = false;

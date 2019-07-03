@@ -328,9 +328,9 @@ private void Page_Load(object sender, System.EventArgs e)
     // SECURE_SECRET can be found in Merchant Administration/Setup page
     string SECURE_SECRET = "";
 
-    Panel_Debug.Visible = false;
-    Panel_Receipt.Visible = false;
-    Panel_StackTrace.Visible = false;
+    Panel_Debug.Visible = true;
+    Panel_Receipt.Visible = true;
+    Panel_StackTrace.Visible = true;
 
     // define message string for errors
     string message = "";

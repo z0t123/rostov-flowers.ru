@@ -66,6 +66,17 @@
 						<img src="/Images/AlfaBank.jpg" alt="Альфа-Банк" class="imgPayMethods" />
 					</td>
 				</tr>
+				<tr>
+					<td class="greentextsite">
+						Сбербанк
+					</td>
+					<td class="greentextsite">
+						4276520011276637
+					</td>
+					<td align="center">
+						<img src="/Images/sber.gif" alt="Сбербанк" class="imgPayMethods" />
+					</td>
+				</tr>
 			</table>
 		</p>
 		<p>
