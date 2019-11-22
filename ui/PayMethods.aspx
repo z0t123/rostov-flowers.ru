@@ -14,7 +14,7 @@
 				<tr>
 					<td class="greentextsite" colspan="2">
 						<asp:HyperLink ID="HyperLinkCardPayment" NavigateUrl="~/CardPayment.aspx" runat="server">
-							Оплата пластиковой картой
+							Оплата пластиковой картой.
 						</asp:HyperLink>
 					</td>
 					<td align="center">
