@@ -71,7 +71,7 @@
 						Сбербанк
 					</td>
 					<td class="greentextsite">
-						4276520011276637
+						4276521911007197
 					</td>
 					<td align="center">
 						<img src="/Images/sber.gif" alt="Сбербанк" class="imgPayMethods" />
