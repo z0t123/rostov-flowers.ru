@@ -1,20 +1,20 @@
-<%@ Page Title="Способы оплаты" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PayMethods.aspx.cs" Inherits="PayMethods" %>
+п»ї<%@ Page Title="РЎРїРѕСЃРѕР±С‹ РѕРїР»Р°С‚С‹" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="PayMethods.aspx.cs" Inherits="PayMethods" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 	<div class="textBlock">
 		<p>
-			Оплачивая заказ обязательно созвонитесь с менеджером по телефону <strong>(863) 256-02-46</strong> и уточните конкретную сумму, 
-			которую Вы собираетесь переводить.
+			РћРїР»Р°С‡РёРІР°СЏ Р·Р°РєР°Р· РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ СЃРѕР·РІРѕРЅРёС‚РµСЃСЊ СЃ РјРµРЅРµРґР¶РµСЂРѕРј РїРѕ С‚РµР»РµС„РѕРЅСѓ <strong>(863) 256-02-46</strong> Рё СѓС‚РѕС‡РЅРёС‚Рµ РєРѕРЅРєСЂРµС‚РЅСѓСЋ СЃСѓРјРјСѓ, 
+			РєРѕС‚РѕСЂСѓСЋ Р’С‹ СЃРѕР±РёСЂР°РµС‚РµСЃСЊ РїРµСЂРµРІРѕРґРёС‚СЊ.
 		</p>
 		<p>
-			Мы принимаем оплату различными способами. Ниже перечислены основные из них:
+			РњС‹ РїСЂРёРЅРёРјР°РµРј РѕРїР»Р°С‚Сѓ СЂР°Р·Р»РёС‡РЅС‹РјРё СЃРїРѕСЃРѕР±Р°РјРё. РќРёР¶Рµ РїРµСЂРµС‡РёСЃР»РµРЅС‹ РѕСЃРЅРѕРІРЅС‹Рµ РёР· РЅРёС…:
 		</p>
 		<p>
 			<table border="0" cellpadding="5" cellspacing="0">
 				<tr>
 					<td class="greentextsite" colspan="2">
 						<asp:HyperLink ID="HyperLinkCardPayment" NavigateUrl="~/CardPayment.aspx" runat="server">
-							Оплата пластиковой картой.
+							РћРїР»Р°С‚Р° РїР»Р°СЃС‚РёРєРѕРІРѕР№ РєР°СЂС‚РѕР№
 						</asp:HyperLink>
 					</td>
 					<td align="center">
@@ -41,7 +41,7 @@
 				<tr>
 					<td class="greentextsite">
 						<asp:HyperLink ID="HyperLinkPayYandexMoney" NavigateUrl="~/PayYandexMoney.aspx" runat="server">
-							Yandex Деньги
+							Yandex Р”РµРЅСЊРіРё
 						</asp:HyperLink>
 					</td>
 					<td class="greentextsite">
@@ -55,43 +55,43 @@
 				</tr>
 				<tr>
 					<td class="greentextsite">
-						Альфа-Банк
+						РђР»СЊС„Р°-Р‘Р°РЅРє
 					</td>
 					<td class="greentextsite">
 						40817810504410037101
 						<br />
-						<span style="font-size: 12px;">ФИО: Владычкин Вячеслав Алексеевич</span>
+						<span style="font-size: 12px;">Р¤РРћ: Р’Р»Р°РґС‹С‡РєРёРЅ Р’СЏС‡РµСЃР»Р°РІ РђР»РµРєСЃРµРµРІРёС‡</span>
 					</td>
 					<td align="center">
-						<img src="/Images/AlfaBank.jpg" alt="Альфа-Банк" class="imgPayMethods" />
+						<img src="/Images/AlfaBank.jpg" alt="РђР»СЊС„Р°-Р‘Р°РЅРє" class="imgPayMethods" />
 					</td>
 				</tr>
 				<tr>
 					<td class="greentextsite">
-						Сбербанк
+						РЎР±РµСЂР±Р°РЅРє
 					</td>
 					<td class="greentextsite">
 						4276521911007197
 					</td>
 					<td align="center">
-						<img src="/Images/sber.gif" alt="Сбербанк" class="imgPayMethods" />
+						<img src="/Images/sber.gif" alt="РЎР±РµСЂР±Р°РЅРє" class="imgPayMethods" />
 					</td>
 				</tr>
 			</table>
 		</p>
 		<p>
-			Есть возможность оплаты заказа обычным переводом на номер мобильного телефона.
+			Р•СЃС‚СЊ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РѕРїР»Р°С‚С‹ Р·Р°РєР°Р·Р° РѕР±С‹С‡РЅС‹Рј РїРµСЂРµРІРѕРґРѕРј РЅР° РЅРѕРјРµСЂ РјРѕР±РёР»СЊРЅРѕРіРѕ С‚РµР»РµС„РѕРЅР°.
 		</p>
 		<p>
-			Эту возможность уточняйте у менеджера по телефону <strong>(863) 256-02-46</strong>.
+			Р­С‚Сѓ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ СѓС‚РѕС‡РЅСЏР№С‚Рµ Сѓ РјРµРЅРµРґР¶РµСЂР° РїРѕ С‚РµР»РµС„РѕРЅСѓ <strong>(863) 256-02-46</strong>.
 		</p>
 		<p>
 			<br />
 		</p>
 		<p>
-			Если по какой-либо причине возникнет необходимость возврата платежа - 
-			Вам необходимо позвонить менеджеру и объяснить возникшую ситуацию. 
-			Платеж будет возвращен в кротчайшие сроки.
+			Р•СЃР»Рё РїРѕ РєР°РєРѕР№-Р»РёР±Рѕ РїСЂРёС‡РёРЅРµ РІРѕР·РЅРёРєРЅРµС‚ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚СЊ РІРѕР·РІСЂР°С‚Р° РїР»Р°С‚РµР¶Р° - 
+			Р’Р°Рј РЅРµРѕР±С…РѕРґРёРјРѕ РїРѕР·РІРѕРЅРёС‚СЊ РјРµРЅРµРґР¶РµСЂСѓ Рё РѕР±СЉСЏСЃРЅРёС‚СЊ РІРѕР·РЅРёРєС€СѓСЋ СЃРёС‚СѓР°С†РёСЋ. 
+			РџР»Р°С‚РµР¶ Р±СѓРґРµС‚ РІРѕР·РІСЂР°С‰РµРЅ РІ РєСЂРѕС‚С‡Р°Р№С€РёРµ СЃСЂРѕРєРё.
 		</p>	
 	</div>
 </asp:Content>
